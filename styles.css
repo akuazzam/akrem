@@ -1,0 +1,133 @@
+html {
+    scroll-behavior: smooth;
+}
+:root {
+    --primary: #363c42;
+    --secondary: #6c757d;
+}
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--primary);
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.profile {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.navitem {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.note {
+    font-size: 50px;
+}
+
+.navitem:hover {
+    color: #ffffff;
+}
+
+.active {
+    color: #ffffff;
+}
+
+.container {
+    margin-left: 350px;
+}
+
+section {
+    height: 100vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectionHeading {
+    font-size: 40px;
+    color: var(--primary)
+}
+
+.innerSection {
+    margin-left: 20px;
+    font-size: 30px;
+    color: var(--secondary);
+}
+
+.sectionBody {
+  /*  font-family: 'Courier New', Courier, monospace; */
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: large;
+   max-width: 600px;
+}
+ul {
+    list-style: none;
+}
+.trophy {
+    color: orange;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,5);
+    transition: 0.3s;
+    width: 400px;
+    padding: 2px 16px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 300px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,10);
+}
+
+.cardContainer {
+    display: flex;
+}
+
+.card-icon {
+    float: right;
+}
+
+.cardList {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+}
+
+.sendButton {
+    border-radius: 25px;
+    color: var(--primary);
+    height: 50px;
+    background-color: white;
+    border-color: var(--primary);
+    font-size: large;
+    padding: 10px;
+    align-self: center;
+}
+
+.sendButton:hover {
+    border-color: blue;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

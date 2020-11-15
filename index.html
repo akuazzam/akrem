@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Akrem's Profile</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="sidenav">
+            <img class="profile" src="akrem.png" alt=""/>
+            <a class="navitem active" href="#">ABOUT</a>
+            <a class= "navitem" href="#experience">EXPERIENCE</a>
+            <a class= "navitem" href="#awards">AWARDS</a>
+        </div>
+        <div class="container">
+            <section id ="about">
+                <h3 class="sectionHeading">Hello, there!</h3>
+                <div class="sectionBody">
+                    <p style="justify-content: center;">
+                        My name is Akrem Azzam Ahmed, and I am a high school senior at Dandii Boru School.
+                        I currently live in Addis Ababa, Ethiopia, with my Dad and elder sister.
+                    </p>
+                    <p>
+                        After high-school, I plan to go to college in the United States to study computer science.
+                        I enjoy problem-solving, and I am confident that a rigorous computer science
+                        curriculum will not only increase my passion for programming but also
+                        equip me with the knowledge I need to solve real-life problems.
+                    </p>
+                    <p>
+                        Outside of school, I work part-time for Meseret Humanitarian Organization (MHO),
+                        an initiative based in Addis Ababa that works primarily to reduce the vulnerability among children and women in Ethiopia.
+                        Nothing motivates me more than the opportunity to directly help those in need, and I look forward to being involved in similar works in the future.  
+                    </p>
+                    <br />
+                    <br />
+                    <button class="sendButton">
+                        <a href="mailto: akremahmed248@gmail.com ">Contact me 
+                        &nbsp;
+                        <i class="fa fa-paper-plane fa-lg" aria-hidden="true"></i>
+                        </a>
+                    </button>
+                </div>
+            </section>
+            <section id ="experience">
+                <h3 class="sectionHeading">EXPERIENCE</h3>
+               <div class="cardContainer">
+                    <a href="https://github.com/akuazzam">
+                        <div class="card">
+                            <h3>Programming <i class="fa fa-github fa-2x card-icon"></i></h3>
+                            <ul class="cardList">
+                                <li>
+                                    Bitmap Image Filter
+                                    <ul>
+                                        <br />
+                                        <li>
+                                            Wrote a C program that manipulates bmp images. Supports GreyScale, Sepia, Blur, and Reflection filters
+                                        </li>
+                                    </ul>
+                                </li>
+                                <br />
+                                <li>
+                                    One other Python Project
+                                    <ul>
+                                        <br />
+                                        <li>
+                                            Wrote a C program that manipulates bmp images. Supports GreyScale, Sepia, Blur, and Reflection filters
+                                        </li>
+                                    </ul>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </a>
+                    <a>
+                        <div class="card">
+                            <h3>Charity Work <i class="fa fa-heart fa-2x card-icon"></i></h3>
+                            <ul class="cardList">
+                                <li>
+                                    Soccer is one of my biggest hobbies, both playing and watching
+                                </li>
+                                <br />
+                                <li>
+                                    I play as a winger for my high-school's soccer team and had the second highest assists 
+                                    in the tournament when we won the regional championship in the 2018 season
+                                </li>
+                                <br />
+                                <li>
+                                    I definitely plan to play soccer in college too!
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+               </div>
+            </section>
+            <section id ="awards">
+                <h3 class="sectionHeading">AWARDS</h3>
+                <div class="sectionBody">
+                    <ul>
+                        <li>
+                            <i class="fa fa-trophy trophy">
+                            </i>
+                            Certificate of Achievement for scoring in the <b>99th</b> percentile in the Ethiopian 8th grade national exam
+                        </li>
+                        <br />
+                        <li>
+                            <i class="fa fa-trophy trophy">
+                            </i>
+                            Certificate of Achievement for getting straight <b>A's</b> in all 9 subjects in the Ethiopian 10th grade national exam
+                        </li>
+                        <br />
+                        <li>
+                            <i class="fa fa-trophy trophy">
+                            </i>
+                            Champions of Kirkos Regional Soccer Tournament in 2018 season; runner up in 2019 season
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+       </div>
+       <script>
+           // script to highlight active link
+           $('.sidenav a').click(function(e) {
+            $('.sidenav a').removeClass('active');
+            $(this).addClass('active');
+        });
+       </script>
+    </body>
+</html>
