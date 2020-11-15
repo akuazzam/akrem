@@ -123,7 +123,7 @@ ul {
 }
 
 .sendButton:hover {
-    border-color: blue;
+    border-color: orange;
     cursor: pointer;
 }
 
